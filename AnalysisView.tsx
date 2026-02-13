@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo, useRef } from 'react';
-import { AnalysisDetail } from '../types';
-import { getColor, smartPrice, getScoreColorCode, roundToTaiwanTick, getSectorName } from '../constants';
+import { AnalysisDetail } from './types';
+import { getColor, smartPrice, getScoreColorCode, roundToTaiwanTick, getSectorName } from './constants';
 import { AreaChart, Area, Line, ResponsiveContainer, YAxis, Tooltip, ComposedChart, CartesianGrid, XAxis } from 'recharts';
 import { 
   ChevronDown, TrendingUp, TrendingDown, Thermometer, 
