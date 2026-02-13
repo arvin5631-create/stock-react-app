@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ICONS, ALL_STOCK_MAP } from '../constants';
+import { ICONS, ALL_STOCK_MAP } from './constants';
 
 interface NavbarProps {
   onSearch: (id: string) => void;
