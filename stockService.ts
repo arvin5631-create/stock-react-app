@@ -1,6 +1,6 @@
 
-import { MarketPulse, AnalysisDetail, StockData, Strategy, TechIndicators, MarketContext } from '../types';
-import { ALL_STOCK_MAP, SECTOR_MAP, getColor, roundToTaiwanTick, getSectorName } from '../constants';
+import { MarketPulse, AnalysisDetail, StockData, Strategy, TechIndicators, MarketContext } from './types';
+import { ALL_STOCK_MAP, SECTOR_MAP, getColor, roundToTaiwanTick, getSectorName } from './constants';
 
 // 優先讀取環境變數，若無則使用預設備用 Key
 const FUGLE_API_KEY = process.env.FUGLE_API_KEY || (import.meta as any).env?.VITE_FUGLE_API_KEY || "NzQxN2Q5ZTQtNGMwZC00ZTQyLWI1OGEtODNmNmYwODk0NmRmIGY5MzU2ZDQzLWZjNzctNDdlYS04NjY4LWZiNjhmMjQ3M2FjMw==";
