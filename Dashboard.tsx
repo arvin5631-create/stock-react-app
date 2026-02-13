@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MarketPulse, StockData } from '../types';
-import { ICONS } from '../constants';
+import { MarketPulse, StockData } from './types';
+import { ICONS } from './constants';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 interface DashboardProps {
