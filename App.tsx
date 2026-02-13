@@ -7,10 +7,10 @@ import {
 } from 'lucide-react';
 import { toPng } from 'html-to-image';
 import { StockData, MarketPulse, AnalysisDetail } from './types';
-import { getMarketPulse, getAnalyze, checkStock } from './services/stockService';
-import { generateAIAudit, discoverTrendingStocks } from './services/geminiService';
+import { getMarketPulse, getAnalyze, checkStock } from './stockService';
+import { generateAIAudit, discoverTrendingStocks } from './geminiService';
 import { getColor, getScoreColorCode, smartPrice, SECTOR_MAP, getSectorName } from './constants';
-import AnalysisView from './components/AnalysisView';
+import AnalysisView from './AnalysisView';
 
 const StockListItem = memo((props: any) => {
   const { stock, editMode, onOpen, onDelete, onMove, isFirst, isLast, delay } = props;
