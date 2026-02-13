@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { AnalysisDetail } from "../types";
+import { AnalysisDetail } from "./types";
 
 const getAIClient = () => {
   // 相容性處理：
